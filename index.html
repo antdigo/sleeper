@@ -13,41 +13,7 @@
     <script src="./sleeper_files/dom4.js"></script>
     <script src="./sleeper_files/modernizr-3.3.1-custom-with-touchevents-f63eb9ca642d10aa28b2b5a3fc6cdcaec8f11c770c9cdb7da0defcf52e042498.js"></script>
     <style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
-
-    <script>
-        WebFontConfig = {
-            custom: {
-                families: [
-                    'Verlag A',
-                    'Verlag B',
-                    'Chronicle Deck A',
-                    'Chronicle Deck B',
-                    'Chronicle SSm A',
-                    'Chronicle SSm B',
-                    'Calibre Light',
-                    'Calibre Medium'
-                ],
-                urls: ['//s3.amazonaws.com/nightshade-fonts/fonts.min.css']
-            },
-
-            timeout: 20000,
-
-            active: function() {
-                if (!Modernizr.sessionstorage) {
-                    return;
-                }
-
-                sessionStorage.setItem('fontsLoaded', 'true');
-            },
-        };
-
-        if (!Modernizr.sessionstorage || sessionStorage.getItem('fontsLoaded') === 'true') {
-            document.documentElement.className += ' wf-active';
-        }
-    </script>
     <link rel="stylesheet" href="./sleeper_files/fonts.min.css" media="all">
-    <script src="./sleeper_files/webfontloader-80a4464744efb37711931ef4f7cecbdb368b821a915c295e4199605549559138.js"></script>
-
 
     <link rel="stylesheet" media="all" href="./sleeper_files/application-bf4959e4e2fce6286dc7eb1cee6c189cefe26875cd7ab098de344da07b98a16a.css">
 
@@ -298,7 +264,7 @@
                         <div class="marketing-hub-primary marketing-hub-primary--left">
                             <div class="marketing-hub-primary__content">
                                 <h3 class="marketing-hub-primary__heading">Самое время сэкономить на непревзойдённом сне</h3>
-                                <p class="marketing-hub-primary__description">Мы вернём до 5000 Р при покупке матраса вместе с любым другим товаром для сна!*</p>
+                                <p class="marketing-hub-primary__description">Мы вернём до 5000 ₽ при покупке матраса вместе с любым другим товаром для сна!*</p>
                                 <div class="marketing-hub-primary__cta">
                                     <a class="btn btn--ghost">Купить</a>
                                 </div>
